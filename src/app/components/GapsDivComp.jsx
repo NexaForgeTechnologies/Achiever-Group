@@ -4,7 +4,7 @@ export default function GapsDivComp({ icon, title, detail, flex="flex-row" }) {
       <img src={icon} alt="career" className={`w-15 md:w-35 h-auto`} />
 
       <div className={`flex flex-col gap-y-1 justify-end`}>
-        <h1 className="font-semibold">{title}</h1>
+        <h1 className="font-semibold text-black">{title}</h1>
         <p className="text-[#A55C2F] break-words">{detail}</p>
       </div>
     </div>

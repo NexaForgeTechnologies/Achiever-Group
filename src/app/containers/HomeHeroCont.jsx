@@ -2,7 +2,7 @@ import Heading from "../components/Heading";
 import BtnOne from "../components/BtnOne";
 export default function HomeHeroCont() {
     return (
-        <section className="flex flex-col items-center justify-center pt-10 pb-5 md:pb-30 md:pt-30 px-5 sm:px-10 md:px-18 lg:px-20 gap-y-5 w-screen ml-[calc(50%-50vw)] min-h-140 bg-[url('/herobg.png')] bg-no-repeat bg-cover bg-center">
+        <section className="flex flex-col items-center justify-center pt-10 pb-5 md:pb-20 md:pt-30 px-5 sm:px-10 md:px-18 lg:px-20 gap-y-5 w-screen ml-[calc(50%-50vw)] min-h-140 bg-[url('/herobg.png')] bg-no-repeat bg-cover bg-center">
 
 
             <section className="grid grid-cols-1 lg:grid-cols-2">

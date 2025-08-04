@@ -12,10 +12,10 @@ function Footer() {
                     <img src="favlogo2.png" alt="Achiever-logo" className=" w-40 md:w-40" />
 
                     <div className="flex items-center gap-x-1 lg:gap-x-5 mt-2 flex-wrap">
-                        <p className=" text-base md:text-xl">CONNECT</p>
-                        <p className="flex justify-center items-center text-base md:text-xl"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> LEAD</p>
-                        <p className="flex justify-center items-center text-base md:text-xl"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> GROW</p>
-                        <p className="flex justify-center items-center text-base md:text-xl"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> MEASURE</p>
+                        <p className=" text-base md:text-xl text-black">CONNECT</p>
+                        <p className="flex justify-center items-center text-base md:text-xl text-black"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> LEAD</p>
+                        <p className="flex justify-center items-center text-base md:text-xl text-black"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> GROW</p>
+                        <p className="flex justify-center items-center text-base md:text-xl text-black"><div className="w-2 h-2 mr-3 bg-[#BF8933] rounded-full"></div> MEASURE</p>
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@ function Footer() {
                 <div className="grid md:grid-cols-2 gap-x-10 lg:gap-x-40 gap-y-10 mt-10 lg:mt-5 ">
 
                     <ul className="flex flex-col gap-y-5 max-w-[200px] lg:max-w-[300px]">
-                        <h1 className="text-xl font-semibold inline-block relative">
+                        <h1 className="text-xl font-semibold inline-block relative text-black">
                             Home
                         </h1>
                         <li className="text-gray-900 break-words hover:cursor-pointer">
@@ -41,7 +41,7 @@ function Footer() {
                     </ul>
 
                     <ul className="flex flex-col gap-y-5 max-w-[200px] lg:max-w-[300px]">
-                        <h1 className="text-xl  font-semibold inline-block relative">
+                        <h1 className="text-xl  font-semibold inline-block relative text-black">
                             Contact Us
 
                         </h1>
