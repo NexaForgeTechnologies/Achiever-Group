@@ -2,7 +2,7 @@ import BtnOne from "../components/BtnOne";
 
 export default function BannerComp({ bgImg = "/Group-661.png", brown, black, yellow, BtnName = "Get In Touch" }) {
     return (
-        <section className="relative rounded border border-[#A55C2F1A] overflow-hidden ">
+        <section className="relative rounded border border-[#A55C2F1A] overflow-hidden my-20">
             {/* Background Image */}
             <div
                 className="absolute inset-0 bg-cover bg-center"

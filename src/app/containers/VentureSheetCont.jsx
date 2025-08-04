@@ -1,6 +1,6 @@
 export default function VentureSheetCont() {
   return (
-    <section className="flex flex-col gap-y-4 my-15 md:my-20">
+    <section className="flex flex-col gap-y-4 my-10 md:my-20">
       <div className="flex flex-col justify-center items-center gap-y-5">
         <h1 className="text-lg md:text-xl font-semibold text-center text-gray-500">
           Together, They Build Something Bigger
