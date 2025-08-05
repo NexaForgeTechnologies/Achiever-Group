@@ -68,7 +68,8 @@ export default function VenturesDivCont() {
 
 
                 <VenturesDivComp
-                    image={"/achieveMeter.png"}
+                    // image={"/achieveMeter.png"}
+                    image={"/xec.png"}
                     borderFrom="#A55C2F"
                     borderTo="#A55C2F1A"
                     BtnName="Visit Website"
