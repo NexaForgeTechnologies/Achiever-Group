@@ -16,13 +16,18 @@ export default function ourVentures() {
             />
 
             <VenturesDivCont />
+
             <VentureSheetCont />
+            
             <BannerComp 
             bgImg="/venture-banner2.png"
             brown={'Want to partner'}
             black={', invest,'}
             yellow={'or explore opportunities with our ventures?'}
             />
+
+
+            
         </>
     );
 }

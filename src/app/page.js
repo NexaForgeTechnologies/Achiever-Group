@@ -1,6 +1,7 @@
 import HomeHeroCont from "./containers/HomeHeroCont";
 import DivContentComp from "./components/DivContentComp";
 import HowWeThinkCont from "./containers/HowWeThinkCont";
+import BannerComp from "./containers/BannerComp";
 export default function Home() {
   return (
     <>
@@ -23,6 +24,13 @@ export default function Home() {
         detailMeasurement={'of growth is inconsistent'}
       />
       <HowWeThinkCont />
+      <BannerComp
+        bgImg="/home-banner.png"
+        brown={'Learn more'}
+        black={'about our'}
+        yellow={'[Achiever Value Framework]'}
+        BtnHide={'hidden'}
+      />
     </>
   );
 }
