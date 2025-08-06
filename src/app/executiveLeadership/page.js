@@ -23,7 +23,10 @@ export default function executiveLeadership() {
 
                 iconMeasurement={'/achievemeter.png'}
                 detailMeasurement={'for measurable personal and professional growth'}
-                FlexDirection={'flex-col'}
+                FlexDirection={'flex-col min-h-40'}
+                center={'text-center'}
+                icow={'w-30 md:w-30 lg:w-50'}
+                
             />
 
             <ExecutiveBanner />

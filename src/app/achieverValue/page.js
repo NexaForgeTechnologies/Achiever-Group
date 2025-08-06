@@ -1,4 +1,5 @@
 import HeroComp from "../components/HeroComp";
+import SetsApartCont from "../components/SetsApartCont";
 import AchieverGrid from "../containers/AchieverGrid";
 
 export default function AchieverValueFramework() {
@@ -15,6 +16,7 @@ export default function AchieverValueFramework() {
                 para2={"Whether you're early in your career or navigating board-level leadership, our platforms are mapped to one or more of these values to deliver clarity, confidence, and forward movement."}
             />
             <AchieverGrid />
+            <SetsApartCont />
         </>
     );
 }

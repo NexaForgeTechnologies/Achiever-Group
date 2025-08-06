@@ -1,5 +1,6 @@
 import Heading from "./Heading";
-export default function InfoCard({ title, heading, heading1, heading2, description, description2, bullet, bullet2, bullet3, titleTxtClr, titleBgClr }) {
+export default function InfoCard({ title, heading, heading1, heading2, description, description2, bullet, bullet2,
+     bullet3, titleTxtClr, titleBgClr, bulletClr }) {
     return (
         <>
         
@@ -19,15 +20,15 @@ export default function InfoCard({ title, heading, heading1, heading2, descripti
 
                 <ul className="flex flex-col gap-y-2">
                     <li className="flex items-center gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0"></span>
+                        <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
                         <p className="text-sm text-gray-500 ">{bullet}</p>
                     </li>
                     <li className="flex items-center gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0"></span>
+                        <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
                         <p className="text-sm text-gray-500 ">{bullet2}</p>
                     </li>
                     <li className="flex items-center gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0"></span>
+                        <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
                         <p className="text-sm text-gray-500 ">{bullet3}</p>
                     </li>
                 </ul>
