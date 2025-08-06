@@ -29,7 +29,7 @@ export default function AchieverGrid({ }) {
                 </div>
 
                 <div className="flex justify-start items-center">
-                    <img src="/Grow.png" className="object-cover object-center w-full h-full" />
+                    <img src="/grow.png" className="object-cover object-center w-full h-full" />
                 </div>
 
                 <div className="md:row-start-2">
@@ -75,7 +75,7 @@ export default function AchieverGrid({ }) {
                 </div>
 
                 <div className="flex justify-start items-center">
-                    <img src="/lead.png" className="object-cover object-center w-full h-full" />
+                    <img src="/measure.png" className="object-cover object-center w-full h-full" />
                 </div>
 
                 <div className="md:row-start-4">
