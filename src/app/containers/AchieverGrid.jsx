@@ -4,9 +4,11 @@ export default function AchieverGrid({ }) {
     return (
         <>
             <section className="grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-20 py-10 md:py-20 lg:py-30">
+
                 <div className="flex justify-start items-center">
                     <img src="/connect.png" className="object-cover object-center w-full h-full" />
                 </div>
+
                 <div>
                     <InfoCard
                         titleTxtClr={'text-[#5D2F6A]'}
@@ -73,7 +75,7 @@ export default function AchieverGrid({ }) {
                 </div>
 
                 <div className="flex justify-start items-center">
-                    <img src="/measure.png" className="object-cover object-center w-full h-full" />
+                    <img src="/lead.png" className="object-cover object-center w-full h-full" />
                 </div>
 
                 <div className="md:row-start-4">
