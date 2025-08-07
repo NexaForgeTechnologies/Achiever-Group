@@ -1,11 +1,12 @@
 import Heading from "./Heading";
 export default function InfoCard({ title, heading, heading1, heading2, description, description2, bullet, bullet2,
-     bullet3, titleTxtClr, titleBgClr, bulletClr }) {
+    bullet3, bullet4, titleTxtClr, titleBgClr, bulletClr, maxW = "max-w-30" }) {
     return (
         <>
-        
+
             <section className="flex flex-col gap-y-3">
-                <Heading name={title} maxWidth="max-w-30" bgColor ={titleTxtClr} textColor ={titleBgClr}/>
+                <Heading name={title} maxWidth={maxW} bgColor={titleTxtClr} textColor={titleBgClr} />
+                
                 <h1 className="text-lg font-semibold text-gray-500 max-w-195 ">
                     {heading}
                 </h1>
@@ -15,7 +16,7 @@ export default function InfoCard({ title, heading, heading1, heading2, descripti
 
 
                 <h1 className="text-lg font-semibold text-gray-500 max-w-195 ">
-                    {heading1}:
+                    {heading1}
                 </h1>
 
                 <ul className="flex flex-col gap-y-2">
@@ -31,10 +32,14 @@ export default function InfoCard({ title, heading, heading1, heading2, descripti
                         <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
                         <p className="text-sm text-gray-500 ">{bullet3}</p>
                     </li>
+                    <li className="flex items-center gap-x-3">
+                        <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
+                        <p className="text-sm text-gray-500 ">{bullet4}</p>
+                    </li>
                 </ul>
 
                 <h1 className="text-lg font-semibold text-gray-500 max-w-195 ">
-                    {heading2}:
+                    {heading2}
                 </h1>
                 <p className="text-base text-gray-500 max-w-130">
                     {description2}

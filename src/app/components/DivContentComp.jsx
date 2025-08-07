@@ -23,7 +23,8 @@ export default function DivContentComp({
 }) {
     return (
         <>
-            <section className="grid grid-cols-1 md:grid-cols-2 gap-5 py-5 md:py-15 relative w-screen ml-[calc(50%-50vw)] px-5 sm:px-10 md:px-18 lg:px-20">
+            <section className="grid grid-cols-1 md:grid-cols-2 gap-5 py-15 
+            relative w-screen ml-[calc(50%-50vw)] px-5 sm:px-10 md:px-18 lg:px-20">
                 {/* Text content */}
                 <section className="flex justify-center md:justify-start items-center">
                     <div className="flex flex-col gap-y-5 mb-5 pr-0 lg:pr-5">
@@ -40,39 +41,39 @@ export default function DivContentComp({
                 </section>
 
                 {/* Gaps grid */}
-                <section className="grid grid-cols-2 md:grid-cols-2 gap-3 z-10">
+                <section className="grid grid-cols-2 md:grid-cols-2 gap-5 z-10 p-0 lg:pl-7">
                     <GapsDivComp
                         icon={iconCareer}
                         iconWidth={icow}
                         title={titleCareer}
-                        detail={detailCareer} 
+                        detail={detailCareer}
                         flex={FlexDirection}
-                        textCenter={center}/>
-                        
+                        textCenter={center} />
+
                     <GapsDivComp
                         icon={iconLeadership}
                         iconWidth={icow}
                         title={titleLeadership}
-                        detail={detailLeadership} 
+                        detail={detailLeadership}
                         flex={FlexDirection}
-                        textCenter={center}/>
-                        
+                        textCenter={center} />
+
                     <GapsDivComp
                         icon={iconTalent}
                         iconWidth={icow}
                         title={titleTalent}
-                        detail={detailTalent} 
+                        detail={detailTalent}
                         flex={FlexDirection}
-                        textCenter={center}/>
-                        
+                        textCenter={center} />
+
                     <GapsDivComp
                         icon={iconMeasurement}
                         iconWidth={icow}
                         title={titleMeasurement}
-                        detail={detailMeasurement} 
+                        detail={detailMeasurement}
                         flex={FlexDirection}
-                        textCenter={center}/>
-                        
+                        textCenter={center} />
+
                 </section>
 
                 <img src="/Exclude.png" className="absolute right-0 bottom-10 " />

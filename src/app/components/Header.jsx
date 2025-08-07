@@ -44,7 +44,7 @@ export default function Header() {
     }, []);
 
     return (
-        <nav className="w-screen ml-[calc(50%-50vw)] px-5 sm:px-10 md:px-18 lg:px-20 py-4 bg-white z-50 transition-all duration-300 ease-in-out" id="nav">
+        <nav className="w-screen ml-[calc(50%-50vw)] px-5 sm:px-10 md:px-18 lg:px-20 py-4 bg-white z-50 transition duration-300 ease-in-out" id="nav">
             {/* Desktop Nav */}
             <div className="hidden xl:flex items-center justify-between gap-x-1">
                 <Link href={'/'}>
@@ -53,14 +53,14 @@ export default function Header() {
 
                 <ul className="flex items-center gap-x-5 lg:gap-x-7 h-full">
                     <Link href="/"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Home</li></Link>
-                    <Link href="/about"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">About</li></Link>
+                    {/* <Link href="/about"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">About</li></Link> */}
                     <Link href="/ourventures"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Our Ventures</li></Link>
                     <Link href="/achieverValue"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Achiever Value Framework</li></Link>
                     <Link href="/executiveLeadership"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Executive Leadership</li></Link>
                 </ul>
 
                 <div className="flex items-center h-full">
-                    <BtnOne name="Book a Demo" />
+                    <BtnOne name="Contact Us" href={'/contactus'}/>
                 </div>
             </div>
 
@@ -82,17 +82,18 @@ export default function Header() {
             {
                 isOpen && (
                     <section
-                        className="lg:hidden fixed left-2 right-2 top-2 bottom-2 z-50
+                        className="xl:hidden fixed left-2 right-2 top-2 bottom-2 z-50
                         bg-black/30 backdrop-blur-md rounded-2xl transition-all"
                     >
                         <ul className="flex flex-col justify-start px-3 gap-y-5 text-white">
                             <div className="w-full flex justify-between items-center px-0 sm:px-5 md:px-10">
                                 <BtnOne
-                                    name="Book a Demo"
+                                    name="Contact Us"
                                     className="mt-4"
                                     bgColor="bg-transparent"
                                     textColor="text-white"
                                     borderColor="border-white"
+                                    href={'/contactus'}
                                 />
                                 <span
                                     onClick={() => setIsOpen(false)}
@@ -103,7 +104,7 @@ export default function Header() {
                             </div>
 
                             <Link href="/"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">Home</li></Link>
-                            <Link href="/about"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">About</li></Link>
+                            {/* <Link href="/about"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">About</li></Link> */}
                             <Link href="/ourventures"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">Our Ventures</li></Link>
                             <Link href="/achieverValue"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">Achiever Value Framework</li></Link>
                             <Link href="/executiveLeadership"><li onClick={() => setIsOpen(false)} className="cursor-pointer border-b border-gray-300">Executive Leadership</li></Link>

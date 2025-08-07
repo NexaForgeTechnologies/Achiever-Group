@@ -1,11 +1,16 @@
 import DivContentComp from "../components/DivContentComp";
+import AnalishaJourneyCont from "../containers/AnalishaJourneyCont";
 import ExecutiveBanner from "../containers/ExecutiveBanner";
+import ExecutiveGridCont from "../containers/ExecutiveGridCont";
 import ExecutiveHero from "../containers/ExecutiveHero";
 export default function executiveLeadership() {
     return (
         <>
 
             <ExecutiveHero />
+
+            <AnalishaJourneyCont />
+            <ExecutiveGridCont />
 
             <DivContentComp
                 heading={'Her Legacy in the Making'}
@@ -26,7 +31,7 @@ export default function executiveLeadership() {
                 FlexDirection={'flex-col min-h-40'}
                 center={'text-center'}
                 icow={'w-30 md:w-30 lg:w-50'}
-                
+
             />
 
             <ExecutiveBanner />

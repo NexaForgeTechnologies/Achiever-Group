@@ -14,8 +14,9 @@ export default function BtnOne({
       <button
         className={`
           ${bgColor} ${hoverBgColor} ${textColor} ${hoverTextColor}
-          font-normal text-sm sm:text-base md:text-lg border-1 ${borderColor} group py-1 md:py-2 px-3 max-w-80 lg:px-5 break-words
-          rounded-full flex justify-center items-center cursor-pointer ${className}
+          font-normal text-sm sm:text-base lg:text-lg border ${borderColor} group 
+          py-2 px-2 sm:px-3 md:px-3 lg:px-2 xl:px-4  break-words
+          rounded-full flex justify-center items-center cursor-pointer w-auto ${className}
         `}
       >
         {name}

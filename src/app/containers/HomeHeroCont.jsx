@@ -29,11 +29,14 @@ export default function HomeHeroCont() {
                     <p className="text-base text-gray-500 max-w-195 text-center md:text-start">Achiever Group is the parent company behind a suite of purpose-driven platforms designed to accelerate careers, build bold leaders, and enable organisations to thrive.</p>
 
 
-                    <div className="flex gap-x-3 md:gap-x-5 justify-center md:justify-start">
+                    <div className="flex gap-x-2 sm:gap-x-3 justify-center md:justify-start items-center">
                         <BtnOne name={'Explore Our Ventures'}
+                            href={'/ourventures'}
+                            hoverBgColor="hover:bg-[#BF8933]"
+                            hoverTextColor="hover:text-[white]"
                         />
                         <BtnOne name={'Discover Our Framework'}
-                            href={'/'}
+                            href={'/achieverValue'}
                             className=""
                             bgColor="bg-transparent"
                             hoverBgColor="hover:bg-[#BF8933]"

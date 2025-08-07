@@ -70,7 +70,7 @@ export default function ExecutiveHero() {
                 </section>
 
 
-                <section className="flex md:items-center xl:items-start justify-center p-10 lg:p-5">
+                <section className="flex md:items-center xl:items-start justify-center p-10 lg:p-10">
                     <img src="/analisha.png" alt="img" />
                 </section>
             </section>

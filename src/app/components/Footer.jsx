@@ -64,7 +64,7 @@ function Footer() {
                             <img src="text.png" alt="" className="w-5 h-5" />
                             <Link href="/">
                                 <div className="text-gray-900 hover:cursor-pointer break-all">
-                                    grow@achievergrp.com
+                                    Grow@achiever-grp.com
                                 </div>
                             </Link>
                         </li>
