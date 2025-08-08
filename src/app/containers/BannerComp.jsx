@@ -6,7 +6,8 @@ export default function BannerComp({
     black,
     yellow,
     BtnName = "Get In Touch",
-    BtnHide }) {
+    BtnHide,
+    BtnLink }) {
     return (
 
         <section className=" py-10 md:py-20">
@@ -27,7 +28,7 @@ export default function BannerComp({
                         <span className="text-[#BF8933]"> {yellow}</span>
                     </h1>
 
-                    <BtnOne name={BtnName} hide={BtnHide} />
+                    <BtnOne name={BtnName} hide={BtnHide} href={BtnLink} />
                 </div>
             </section>
         </section>

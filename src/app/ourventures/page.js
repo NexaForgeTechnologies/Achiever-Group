@@ -24,6 +24,7 @@ export default function ourVentures() {
             brown={'Want to partner'}
             black={', invest,'}
             yellow={'or explore opportunities with our ventures?'}
+            BtnLink={'/contactus'}
             />
 
 

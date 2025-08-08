@@ -43,14 +43,15 @@ export default function ContactUs() {
                             <div className="flex flex-col gap-y-6 w-full justify-center items-start max-w-[250px] lg:items-start">
                                 <span className="flex flex-row items-center lg:items-start gap-x-3">
                                     <img src="linkedin.png" alt="" className="w-5 h-5" />
-                                    <Link href="/" className="text-gray-900 hover:cursor-pointer">
+                                    <Link href="https://www.linkedin.com/company/achiever-group/about/?viewAsMember=true"
+                                        target="_blank">
                                         Achiever Group
                                     </Link>
                                 </span>
 
                                 <span className="flex flex-row items-center lg:items-start gap-x-3">
                                     <img src="text.png" alt="" className="w-5 h-5" />
-                                    <Link href="/" className="text-gray-900 hover:cursor-pointer break-all">
+                                    <Link href="mailto:Grow@achiever-grp.com" className="text-gray-900 hover:cursor-pointer break-all">
                                         <u> Grow@achiever-grp.com </u>
                                     </Link>
                                 </span>
