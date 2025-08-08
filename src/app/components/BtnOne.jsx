@@ -7,10 +7,11 @@ export default function BtnOne({
   textColor = "text-[white]",
   hoverTextColor = "hover:text-[#BF8933]",
   borderColor = "border-[#BF8933]",
-  hide
+  hide,
+  targetLink = "_self",
 }) {
   return (
-    <a href={href} target="_self" className={`${hide}`}>
+    <a href={href} target={targetLink}  className={`${hide}`}>
       <button
         className={`
           ${bgColor} ${hoverBgColor} ${textColor} ${hoverTextColor}

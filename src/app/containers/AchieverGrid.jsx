@@ -23,8 +23,10 @@ export default function AchieverGrid({ }) {
                         bullet2={'Innovation'}
                         bullet3={'Inclusion'}
                         heading2={'Platform'}
+
                         description2={'PTX - Project and Talent Xchange – our cross-sector exchange that drives real-time professional growth and organizational learning.'}
                         bulletClr={'bg-[#5D2F6A]'}
+                        hide={'hidden'}
                     />
                 </div>
 
@@ -48,6 +50,7 @@ export default function AchieverGrid({ }) {
                         heading2={'Platform'}
                         description2={'The Procurement Plug – community, career hub, and capability ecosystem for procurement professionals.'}
                         bulletClr={'bg-[#ECB93D]'}
+                        hide={'hidden'}
                     />
                 </div>
 
@@ -71,6 +74,7 @@ export default function AchieverGrid({ }) {
                         heading2={'Platform'}
                         description2={'Xec Plug – a leadership suite designed for CPOs, executives, and boardroom-ready professionals focused on purpose-driven leadership.'}
                         bulletClr={'bg-[#A55C2F]'}
+                        hide={'hidden'}
                     />
                 </div>
 
@@ -94,6 +98,7 @@ export default function AchieverGrid({ }) {
                         heading2={'Platform'}
                         description2={'AchieveMeter – our AI-powered career and leadership benchmarking tool guiding personal and team progression with data-driven insight.'}
                         bulletClr={'bg-[#37200E]'}
+                        hide={'hidden'}
                     />
                 </div>
 

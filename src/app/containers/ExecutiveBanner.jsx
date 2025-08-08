@@ -3,9 +3,9 @@ export default function ExecutiveBanner() {
     return (
         <>
             <section className="py-10 md:py-20">
-                <section className="relative rounded border border-[#A55C2F1A] overflow-hidden min-h-[290px] flex flex-col justify-center">
-                    {/* border-[#A55C2F1A] */}
-                    {/* Background Image */}
+                <section className="relative rounded border border-[#A55C2F1A] 
+                overflow-hidden min-h-[290px] flex flex-col justify-center">
+
                     <div
                         className="absolute inset-0 bg-cover bg-center"
                         style={{ backgroundImage: `url('/executivebanner.png')` }}
@@ -23,8 +23,13 @@ export default function ExecutiveBanner() {
                             <p className="text-base text-gray-500">Annalisha Noel, MCIPS</p>
                         </div>
 
-                        <BtnOne name={'Get in Touch'} />
+                        <BtnOne
+                            name={'Get in Touch'}
+                            href={'https://www.linkedin.com/in/annalisha-noel-mcips/'}
+                            targetLink="_blank" />
                     </div>
+
+
                 </section>
             </section>
         </>

@@ -6,7 +6,11 @@ export default function ExecutiveHero() {
         w-screen ml-[calc(50%-50vw)] px-5 sm:px-10 md:px-18 lg:px-20 grid grid-cols-1 lg:grid-cols-2 py-10 lg:py-20
         ">
 
-                <section className="flex flex-col gap-y-4 pr-0 lg:pr-10 items-center lg:items-start">
+                <section className="flex md:items-center xl:items-start justify-center p-10 lg:p-10 ">
+                    <img src="/analisha.png" alt="img" />
+                </section>
+
+                <section className="flex flex-col gap-y-4 pr-0 lg:pr-10 items-center lg:items-start lg:row-start-1">
                     <div className="flex flex-col items-center lg:items-start gap-y-3">
                         <Heading
                             name={'Meet the Founder'}
@@ -70,9 +74,7 @@ export default function ExecutiveHero() {
                 </section>
 
 
-                <section className="flex md:items-center xl:items-start justify-center p-10 lg:p-10">
-                    <img src="/analisha.png" alt="img" />
-                </section>
+
             </section>
         </>
     );

@@ -1,6 +1,6 @@
 import Heading from "./Heading";
 export default function InfoCard({ title, heading, heading1, heading2, description, description2, bullet, bullet2,
-    bullet3, bullet4, titleTxtClr, titleBgClr, bulletClr, maxW = "max-w-30" }) {
+    bullet3, bullet4, titleTxtClr, titleBgClr, bulletClr, maxW = "max-w-30", hide }) {
     return (
         <>
 
@@ -33,8 +33,8 @@ export default function InfoCard({ title, heading, heading1, heading2, descripti
                         <p className="text-sm text-gray-500 ">{bullet3}</p>
                     </li>
                     <li className="flex items-center gap-x-3">
-                        <span className={`${bulletClr} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                        <p className="text-sm text-gray-500 ">{bullet4}</p>
+                        <span className={`${bulletClr} ${hide} rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
+                        <p className={`text-sm text-gray-500`}>{bullet4}</p>
                     </li>
                 </ul>
 

@@ -1,4 +1,5 @@
 import BtnOne from "../components/BtnOne";
+import Link from "next/link";
 
 export default function VenturesDivComp({
     image,
@@ -16,6 +17,7 @@ export default function VenturesDivComp({
     subHeadYellow,
     para3,
     para4,
+    VisitHref
 }) {
     return (
         <div className={`bg-gradient-to-b from-[${borderFrom}] to-[${borderTo}] rounded p-[1px]`}>
@@ -49,7 +51,8 @@ export default function VenturesDivComp({
 
                     <BtnOne
                         name={BtnName}
-                        href="/"
+                        href={VisitHref} 
+                        targetLink="_blank"
                         className="mt-5"
                         bgColor="bg-transparent"
                         hoverBgColor="hover:bg-[#BF8933]"

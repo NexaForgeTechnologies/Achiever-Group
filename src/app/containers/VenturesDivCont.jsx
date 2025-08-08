@@ -22,6 +22,7 @@ export default function VenturesDivCont() {
                     para3={' A vibrant ecosystem that blends career development, training, community, mentorship, and strategic content — built to transform how professionals learn, grow, and collaborate in procurement and supply chain.'}
 
                     subHeadYellow={'Job Board • Events • Academy • Career Hub • Procurement Concierge • Mentorship'}
+                    
                 />
 
 
@@ -44,6 +45,8 @@ export default function VenturesDivCont() {
                     subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
 
                     para4={'Includes: XecXchange Module for executive-level secondments.'}
+                    VisitHref={'https://www.ptxtalent.com'}
+
                 />
 
                  <VenturesDivComp
