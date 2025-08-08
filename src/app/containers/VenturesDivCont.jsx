@@ -85,11 +85,11 @@ export default function VenturesDivCont() {
                     para1={'Grow | Measure'}
                     subHead2={'Status'}
                     para2={'In development'}
-                    para3={'PTX redefines workforce agility through structured secondments and talent exchange. This platform allows businesses to unlock internal and cross industry capability, while professionals gain access to new projects, experiences, and accelerated development.'}
+                    para3={'AchieveMeter is your personal AI-powered career benchmarking engine. It helps professionals map their growth, align to their career vision, and track tangible development outcomes — from intern to CPO, and beyond.'}
 
-                    subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
+                    subHeadYellow={'Benchmark reports • Career vision alignment • Employer dashboards • Printable development journey'}
+                    para4={'Includes: XecAchieve – executive-level version for C-suite growth metrics.'}
 
-                    para4={'Includes: XecXchange Module for executive-level secondments.'}
                     VisitHref={'https://www.AchieveMeter.com'}
 
                 />
