@@ -5,12 +5,8 @@ export default function AnalishaJourneyCont() {
         <>
             <section className="grid grid-cols-1 lg:grid-cols-2 gap-y-7 py-10 md:py-20 ">
 
-                <div className="flex justify-center items-center lg:justify-start rounded overflow-hidden">
-                    <img src="/journey.png" alt="journey" className="w-full lg:w-[90%] h-full object-contain object-center" />
-                </div>
-
                 <div className="flex flex-col gap-y-5 p-0 lg:pl-10 justify-center items-center lg:items-start">
-                    <Heading name={"Analisha's Journey"} maxWidth="max-w-60" />
+                    <Heading name={"Annalisha's Journey"} maxWidth="max-w-60" />
                     <p className="text-base text-gray-500 max-w-130 text-center lg:text-start">From navigating the complexities of corporate procurement to mentoring
                         rising talent and driving sustainability, Annalisha has built a reputation for
                         transforming challenges into legacy-level solutions. Her career spans roles
@@ -27,6 +23,12 @@ export default function AnalishaJourneyCont() {
                         </div>
                     </div>
                 </div>
+
+
+                <div className="flex justify-center items-center lg:justify-start rounded overflow-hidden lg:row-start-1">
+                    <img src="/journey.png" alt="journey" className="w-full md:w-[90%] h-full object-contain object-center" />
+                </div>
+
 
             </section>
         </>

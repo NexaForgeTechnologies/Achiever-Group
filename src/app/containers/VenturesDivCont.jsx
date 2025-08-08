@@ -22,7 +22,8 @@ export default function VenturesDivCont() {
                     para3={' A vibrant ecosystem that blends career development, training, community, mentorship, and strategic content — built to transform how professionals learn, grow, and collaborate in procurement and supply chain.'}
 
                     subHeadYellow={'Job Board • Events • Academy • Career Hub • Procurement Concierge • Mentorship'}
-                    
+                    VisitHref={'https://www.theprocurementplug.com/'}
+
                 />
 
 
@@ -49,7 +50,7 @@ export default function VenturesDivCont() {
 
                 />
 
-                 <VenturesDivComp
+                <VenturesDivComp
                     image={"/xec.png"}
                     borderFrom="#E1A73A"
                     borderTo="#A55C2F1A"
@@ -89,6 +90,8 @@ export default function VenturesDivCont() {
                     subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
 
                     para4={'Includes: XecXchange Module for executive-level secondments.'}
+                    VisitHref={'https://www.AchieveMeter.com'}
+
                 />
 
             </section>

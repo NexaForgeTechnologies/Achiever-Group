@@ -4,6 +4,7 @@ import HowWeThinkCont from "./containers/HowWeThinkCont";
 import BannerComp from "./containers/BannerComp";
 import WhoWeAreCont from "./containers/WhoWeAreCont";
 import HomeGrid from "./containers/HomeGrid";
+import WhatMakesUsDiffCont from "./containers/WhatMakesUsDiffCont";
 export default function Home() {
   return (
     <>
@@ -28,6 +29,8 @@ export default function Home() {
         titleMeasurement={'Measurement'}
         detailMeasurement={'of growth is inconsistent'}
       />
+
+      <WhatMakesUsDiffCont />
 
       <HomeGrid />
 

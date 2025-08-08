@@ -1,4 +1,4 @@
-export default function HowWeThinkComp({ title, list1, list2, list3, list4, image }) {
+export default function HowWeThinkComp({ title, list1, list2, list3, list4, list5, image, hideLi }) {
     return (
         <div className="p-[1px] bg-gradient-to-b from-[#A55C2F] to-[#a55c2f28] rounded w-full">
             <div className="flex flex-col py-5 rounded bg-[url('/linear.png')] bg-center bg-cover p-5 bg-white">
@@ -7,30 +7,37 @@ export default function HowWeThinkComp({ title, list1, list2, list3, list4, imag
 
                 <ul className="flex flex-col justify-center gap-y-3 mt-3">
                     <li className="flex items-start gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-2"></span>
+                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-1"></span>
                         <p className="text-sm text-gray-500">
                             {list1}
                         </p>
                     </li>
 
                     <li className="flex items-start gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-2"></span>
+                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-1"></span>
                         <p className="text-sm text-gray-500">
                             {list2}
                         </p>
                     </li>
 
                     <li className="flex items-start gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-2"></span>
+                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-1"></span>
                         <p className="text-sm text-gray-500">
                             {list3}
                         </p>
                     </li>
 
                     <li className="flex items-start gap-x-3">
-                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-2"></span>
+                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-1"></span>
                         <p className="text-sm text-gray-500">
                             {list4}
+                        </p>
+                    </li>
+
+                    <li className={`flex items-start gap-x-3 ${hideLi}`}>
+                        <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 relative top-1"></span>
+                        <p className="text-sm text-gray-500">
+                            {list5}
                         </p>
                     </li>
                 </ul>

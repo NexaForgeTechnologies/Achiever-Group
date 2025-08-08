@@ -18,7 +18,8 @@ export default function HowWeThinkCont() {
                             list1={"Clarity over complexity"}
                             list2={"Access over exclusivity"}
                             list3={"Structure over chaos"}
-                            list4={"Collaboration over competition"} />
+                            list4={"Collaboration over competition"} 
+                            list5={'Purpose over vanity'}/>
                     </div>
 
 
@@ -29,17 +30,19 @@ export default function HowWeThinkCont() {
                         list2={"Leadership Intelligence – Every product is designed to elevate decision-makers and future leaders."}
                         list3={"Ecosystem Logic – Our ventures work together, not in silos."}
                         list4={"Value Mapping – Everything aligns to the Achiever Value Framework to ensure impact at"}
+                        hideLi={'hidden'}
                     />
 
 
                     <div className="flex flex-col justify-center items-center">
                         <HowWeThinkComp
                             image={'/pin.png'}
-                            title={"We Are Guided By:"}
-                            list1={"Clarity over complexity"}
-                            list2={"Access over exclusivity"}
-                            list3={"Structure over chaos"}
-                            list4={"Collaboration over competition"} />
+                            title={"Our philosophy informs:"}
+                            list1={"The way we design each venture"}
+                            list2={"The problems we choose to solve"}
+                            list3={"The way we define success"}
+                            list4={"The partners we work with"} 
+                            list5={'The tools we build'}/>
                     </div>
                 </section>
             </section>
