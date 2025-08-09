@@ -13,6 +13,10 @@ export default function AnalishaJourneyCont() {
                         with National Grid, Centrica, Rail Delivery Group, the NHS, and more—yet
                         her impact reaches far beyond contracts and cost savings.</p>
 
+                    <div className="flex justify-center items-center lg:justify-start rounded overflow-hidden lg:row-start-1 lg:hidden">
+                        <img src="/journey.png" alt="journey" className="w-full md:w-[90%] h-full object-contain object-center" />
+                    </div>
+
                     <div className="flex flex-col gap-y-5 justify-center items-center lg:items-start p-[1px] rounded bg-gradient-to-b from-[#A55C2F] to-[#ecb6782f] overflow-hidden mt-5 lg:mt-0">
                         <div className="bg-white p-5 flex flex-col gap-y-7 rounded">
                             <p className="text-base font-semibold text-gray-500 max-w-130 text-center lg:text-start">
@@ -24,10 +28,10 @@ export default function AnalishaJourneyCont() {
                     </div>
                 </div>
 
-
-                <div className="flex justify-center items-center lg:justify-start rounded overflow-hidden lg:row-start-1">
+                <div className="hidden justify-center items-center lg:justify-start rounded overflow-hidden lg:row-start-1 lg:flex">
                     <img src="/journey.png" alt="journey" className="w-full md:w-[90%] h-full object-contain object-center" />
                 </div>
+
 
 
             </section>
