@@ -41,7 +41,7 @@ export default function VenturesDivCont() {
                     para1={'Connect | Grow | Lead'}
                     subHead2={'Status'}
                     para2={'In build, launching pilot Nov 2025'}
-                    para3={'PTX redefines workforce agility through structured secondments and talent exchange. This platform allows businesses to unlock internal and cross industry capability, while professionals gain access to new projects, experiences, and accelerated development.'}
+                    para3={'PTX - Project and Talent Xchange – our cross-sector cross industry talent exchange platform that drives real-time professional growth and organizational learning.'}
 
                     subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
 

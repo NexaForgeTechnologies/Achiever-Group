@@ -51,7 +51,7 @@ export default function Header() {
                     <img src="favlogo.png" alt="Nexaforge-logo" className="w-30 md:w-45" />
                 </Link>
 
-                <ul className="flex items-center gap-x-5 lg:gap-x-7 h-full">
+                <ul className="flex items-center gap-x-5 lg:gap-x-5 h-full">
                     <Link href="/"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Home</li></Link>
                     {/* <Link href="/about"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">About</li></Link> */}
                     <Link href="/ourventures"><li className="flex items-center h-full cursor-pointer text-[#BF8933] hover:text-[#563224]">Our Ventures</li></Link>

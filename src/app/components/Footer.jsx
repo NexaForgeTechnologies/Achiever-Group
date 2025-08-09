@@ -39,16 +39,16 @@ function Footer() {
                     <ul className="flex flex-col gap-y-5 min-w-[170px]">
                         <h1 className="text-xl font-semibold text-black">Home</h1>
                         <li className="text-gray-900 hover:cursor-pointer">
-                            <Link href="">About</Link>
+                            <Link href="">Privacy Policy</Link>
                         </li>
                         <li className="text-gray-900 hover:cursor-pointer">
-                            <Link href="">Our Ventures</Link>
+                            <Link href="/ourventures">Our Ventures</Link>
                         </li>
                         <li className="text-gray-900 hover:cursor-pointer">
-                            <Link href="">Achiever Value Framework</Link>
+                            <Link href="/achieverValue">Achiever Value Framework</Link>
                         </li>
                         <li className="text-gray-900 hover:cursor-pointer">
-                            <Link href="">Executive Leadership</Link>
+                            <Link href="/executiveLeadership">Executive Leadership</Link>
                         </li>
                     </ul>
 
