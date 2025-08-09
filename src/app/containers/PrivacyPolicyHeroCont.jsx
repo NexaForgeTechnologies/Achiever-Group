@@ -31,7 +31,7 @@ export default function PrivacyPolicyHeroCont() {
 
                 </section>
 
-                <section className="m-10 flex justify-center lg:justify-end items-center">
+                <section className="m-5 md:m-10 flex justify-center lg:justify-end items-center">
                     <img src="/privacy-img.png" className="" />
                 </section>
             </section>
