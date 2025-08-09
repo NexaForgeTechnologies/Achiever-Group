@@ -23,7 +23,7 @@ export default function HomeGrid() {
                         <p className="text-base text-gray-500 max-w-130 text-center lg:text-start">
                             The world doesn’t just need more platforms. It needs ecosystems that
                             remove friction, unlock potential, and connect talent with purpose.</p>
-                        <p className="text-base text-gray-500 max-w-130 text-center lg:text-start">
+                        <p className="text-base text-gray-500 max-w-130 text-center lg:text-start font-semibold">
                             Achiever Group was born from this belief.</p>
                     </div>
 

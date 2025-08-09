@@ -28,6 +28,7 @@ export default function Home() {
         iconMeasurement={'/measurement.png'}
         titleMeasurement={'Measurement'}
         detailMeasurement={'of growth is inconsistent'}
+        HideManage={'hidden lg:flex'}
       />
 
       <WhatMakesUsDiffCont />
@@ -40,8 +41,10 @@ export default function Home() {
         bgImg="/home-banner.png"
         brown={'Learn more'}
         black={'about our'}
-        yellow={'[Achiever Value Framework]'}
+        yellow={'Achiever Value Framework'}
         BtnHide={'hidden'}
+        contentLink={'/achieverValue'}
+        contentCSS={'pointer-cursor active:text-[#A55C2F] lg:hover:text-[#A55C2F]'}
       />
     </>
   );

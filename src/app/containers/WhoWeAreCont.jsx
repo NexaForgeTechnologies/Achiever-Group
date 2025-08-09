@@ -4,8 +4,12 @@ export default function WhoWeAreCont() {
     return (
         <>
             <section className="grid grid-cols-1 lg:grid-cols-2 gap-7 pt-5 pb-10 md:py-15">
-                <section className="py-5 row-start-2 lg:row-start-1">
+                <section className="py-5 row-start-2 lg:row-start-1 flex flex-col gap-y-5">
+                    <h1 className={`text-lg font-semibold text-gray-500 text-center lg:hidden`}>
+                        Achiever Group exists to change that.
+                    </h1>
                     <img src="whoweare.png" alt="img" className="w-full h-full object-cover object-center" />
+
                 </section>
 
 

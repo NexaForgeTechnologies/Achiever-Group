@@ -39,7 +39,7 @@ function Footer() {
                     <ul className="flex flex-col gap-y-5 min-w-[170px]">
                         <h1 className="text-xl font-semibold text-black">Home</h1>
                         <li className="text-gray-900 hover:cursor-pointer">
-                            <Link href="">Privacy Policy</Link>
+                            <Link href="/privacypolicy">Privacy Policy</Link>
                         </li>
                         <li className="text-gray-900 hover:cursor-pointer">
                             <Link href="/ourventures">Our Ventures</Link>
@@ -91,9 +91,11 @@ function Footer() {
 
             {/* Bottom Bar */}
             <section className="py-5 text-center bg-[#BF8933] text-white">
-                <p className="text-sm sm:text-base">
-                    ©2025 Achiever Group | Powered by NexaForge Technologies
-                </p>
+                <Link href={'https://nexaforgetech.com/'} target="_blank">
+                    <p className="text-sm sm:text-base">
+                        ©2025 Achiever Group | Powered by NexaForge Technologies
+                    </p>
+                </Link>
             </section>
         </footer>
     );

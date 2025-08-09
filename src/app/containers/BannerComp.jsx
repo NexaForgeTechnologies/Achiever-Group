@@ -1,5 +1,5 @@
 import BtnOne from "../components/BtnOne";
-
+import Link from "next/link";
 export default function BannerComp({
     bgImg = "/Group-661.png",
     brown,
@@ -7,7 +7,9 @@ export default function BannerComp({
     yellow,
     BtnName = "Get In Touch",
     BtnHide,
-    BtnLink }) {
+    BtnLink,
+    contentLink,
+    contentCSS }) {
     return (
 
         <section className=" py-10 md:py-20">
@@ -25,7 +27,8 @@ export default function BannerComp({
                     <h1 className="text-2xl md:text-4xl font-semibold max-w-4xl leading-tight">
                         <span className="text-[#A55C2F]">{brown}</span>
                         <span className="text-black"> {black}</span>
-                        <span className="text-[#BF8933]"> {yellow}</span>
+                        <span className="text-[#BF8933]">
+                            <a href={contentLink} className={`${contentCSS}`}> {yellow} </a></span>
                     </h1>
 
                     <BtnOne name={BtnName} hide={BtnHide} href={BtnLink} />

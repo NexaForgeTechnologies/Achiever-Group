@@ -19,7 +19,8 @@ export default function DivContentComp({
     detailMeasurement,
     FlexDirection,
     center,
-    icow
+    icow,
+    HideManage
 }) {
     return (
         <>
@@ -31,7 +32,7 @@ export default function DivContentComp({
                         <div className="flex justify-center md:justify-start">
                             <Heading name={heading} />
                         </div>
-                        <h1 className="text-lg font-semibold text-gray-500 max-w-195 text-center md:text-start">
+                        <h1 className={`text-lg font-semibold text-gray-500 max-w-195 text-center md:text-start ${HideManage}`}>
                             {subheading}
                         </h1>
                         <p className="text-base text-gray-500 max-w-130 text-center md:text-start">

@@ -23,9 +23,7 @@ export default function ContactUs() {
                         </h1>
                         <p className="text-base text-gray-500 text-center lg:text-start max-w-130">Our friendly team is here to help! Whether you’re looking for more
                             information about our services, need support, or just want to share
-                            feedback, we’d love to hear from you. Simply fill out the form below,
-                            and a member of our team will get back to you as soon as possible.
-                            Let’s connect and make great things happen together!</p>
+                            feedback, we’d love to hear from you.</p>
                     </div>
 
 

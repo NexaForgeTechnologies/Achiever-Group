@@ -41,7 +41,7 @@ export default function InfoCard({ title, heading, heading1, heading2, descripti
                 <h1 className="text-lg font-semibold text-gray-500 max-w-195 ">
                     {heading2}
                 </h1>
-                <p className="text-base text-gray-500 max-w-130">
+                <p className="text-base text-gray-500 max-w-130 font-semibold">
                     {description2}
                 </p>
 

@@ -1,7 +1,7 @@
 import HeroComp from "../components/HeroComp";
 import SetsApartCont from "../components/SetsApartCont";
 import AchieverGrid from "../containers/AchieverGrid";
-import OurPillarsCont from "../containers/OurPillarsCont";
+import OurPillarsNewCont from "../containers/OurPillarsNewCont";
 
 export default function AchieverValueFramework() {
     return (
@@ -17,7 +17,8 @@ export default function AchieverValueFramework() {
                 para2={"Whether you're early in your career or navigating board-level leadership, our platforms are mapped to one or more of these values to deliver clarity, confidence, and forward movement."}
             />
             <AchieverGrid />
-            <OurPillarsCont />
+            {/* <OurPillarsCont /> */}
+            <OurPillarsNewCont />
             <SetsApartCont />
         </>
     );
