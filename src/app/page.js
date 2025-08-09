@@ -14,7 +14,6 @@ export default function Home() {
 
       <DivContentComp
         heading={'The Gaps We’re Filling'}
-        subheading={'Achiever Group exists to change that.'}
         description={'We centralise support, build strategic bridges, and unlock growth at every stage — with people-first, data-smart platforms.'}
         iconCareer={'/career.png'}
         titleCareer={'Career'}
