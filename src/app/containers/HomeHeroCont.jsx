@@ -26,7 +26,7 @@ export default function HomeHeroCont() {
                         </span>
 
                     </h1>
-                    <p className="text-base text-gray-500 max-w-195 text-center md:text-start">Achiever Group is the parent company behind a suite of purpose-driven platforms designed to accelerate careers, build bold leaders, and enable organisations to thrive.</p>
+                    <p className="text-base text-gray-500 max-w-195 text-center md:text-start">Achiever Group an innovative venture studio, the parent company behind a suite of purpose-driven platforms designed to accelerate careers, build bold leaders, and enable organisations to thrive.</p>
 
 
                     <div className="flex gap-x-2 sm:gap-x-3 justify-center md:justify-start items-center">
