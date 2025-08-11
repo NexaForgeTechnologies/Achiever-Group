@@ -13,13 +13,38 @@ export default function VentureSheetCont() {
 
       {/* Table Header */}
       <section className="grid grid-cols-5 border border-[#A55C2F] rounded">
-        {["Venture", "Connect", "Grow", "Lead", "Measure"].map((col) => (
-          <div key={col} className="flex items-center justify-center py-5 px-2">
-            <h1 className="text-sm md:text-base font-semibold text-gray-500 text-center">
-              {col}
+        {/* {["Venture ", "Connect ", "Grow ", "Lead ", "Measure "].map((col) => ( */}
+          <div className="flex items-center justify-center py-5 px-2 border-r border-[#A55C2F]">
+            <h1 className="text-xs md:text-base font-semibold text-gray-500 text-center">
+             Venture
             </h1>
           </div>
-        ))}
+
+          <div className="flex items-center justify-center py-5 px-2 border-r border-[#A55C2F]">
+            <h1 className="text-xs md:text-base font-semibold text-gray-500 text-center">
+             Connect
+            </h1>
+          </div>
+
+          <div className="flex items-center justify-center py-5 px-2 border-r border-[#A55C2F]">
+            <h1 className="text-xs md:text-base font-semibold text-gray-500 text-center">
+             Grow
+            </h1>
+          </div>
+
+          <div className="flex items-center justify-center py-5 px-2 border-r border-[#A55C2F]">
+            <h1 className="text-xs md:text-base font-semibold text-gray-500 text-center">
+             Lead
+            </h1>
+          </div>
+
+          <div className="flex items-center justify-center py-5 px-2">
+            <h1 className="text-xs md:text-base font-semibold text-gray-500 text-center">
+             Measure
+            </h1>
+          </div>
+          
+        {/* ))} */}
       </section>
 
       {/* Row 1 */}
