@@ -24,7 +24,7 @@ export default function AchieverGrid({ }) {
                         bullet3={'Inclusion'}
                         heading2={'Platform'}
 
-                        description2={'PTX - Project and Talent Xchange – our cross-sector exchange that drives real-time professional growth and organizational learning.'}
+                        description2={'PTX - Project and Talent Xchange – our cross-sector industry talent exchange platform that drives real-time professional growth and organizational learning.'}
                         bulletClr={'bg-[#5D2F6A]'}
                         hide={'hidden'}
                     />
