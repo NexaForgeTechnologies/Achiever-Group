@@ -21,7 +21,7 @@ export default function executiveLeadership() {
                 detailCareer={"for day-to-day procurement success and personal growth"}
 
                 iconLeadership={'ptx.png'}
-                detailLeadership={'for for bold, cross-industry knowledge sharing'}
+                detailLeadership={'for bold, cross-industry knowledge sharing'}
 
                 iconTalent={'/xec-new.png'}
                 detailTalent={'for leadership legacy and boardroom transformation'}
