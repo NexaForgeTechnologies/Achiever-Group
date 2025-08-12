@@ -45,8 +45,8 @@ export default function VenturesDivCont() {
 
                     subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
 
-                    para4={'Includes: XecXchange Module for executive-level secondments. test'}
-                    
+                    para4={'Includes: XecXchange Module for executive-level secondments.'}
+                    VisitHref={'https://www.ptxtalent.com'}
 
                 />
 
@@ -68,7 +68,7 @@ export default function VenturesDivCont() {
                     para3={' Designed for senior procurement professionals and rising executives, it offers tailored leadership learning, executive peer exchanges, mentorship, and boardroom readiness through intelligent partnership and proprietary tools and experiences.'}
 
                     subHeadYellow={'Executive coaching • PTX XecXchange • Retreats • Leadership Index • White Glove Concierge'}
-                    VisitHref={'https://xecplug.theprocurementplug.com/'}
+                    VisitHref={'https://xecplug.theprocurementplug.com'}
                 />
 
 
