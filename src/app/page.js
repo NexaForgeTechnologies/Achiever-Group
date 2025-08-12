@@ -20,7 +20,7 @@ export default function Home() {
         detailCareer={"development is fragmented"}
         iconLeadership={'leadership.png'}
         titleLeadership={'Leadership'}
-        detailLeadership={'support is often elitist or inaccessible'}
+        detailLeadership={'support is often elitist or inaccessible checking'}
         iconTalent={'/talent.png'}
         titleTalent={'Talent '}
         detailTalent={'mobility lacks structure across industries'}
