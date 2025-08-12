@@ -45,8 +45,8 @@ export default function VenturesDivCont() {
 
                     subHeadYellow={'Live project exchanges • Internal & external placements • Learning Vault • Reporting dashboards'}
 
-                    para4={'Includes: XecXchange Module for executive-level secondments.'}
-                    VisitHref={'https://www.ptxtalent.com'}
+                    para4={'Includes: XecXchange Module for executive-level secondments. test'}
+                    
 
                 />
 
