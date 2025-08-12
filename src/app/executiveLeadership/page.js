@@ -23,10 +23,10 @@ export default function executiveLeadership() {
                 iconLeadership={'ptx.png'}
                 detailLeadership={'for for bold, cross-industry knowledge sharing'}
 
-                iconTalent={'/xec.png'}
+                iconTalent={'/xec-new.png'}
                 detailTalent={'for leadership legacy and boardroom transformation'}
 
-                iconMeasurement={'/achievemeter.png'}
+                iconMeasurement={'/achievemeter-new.png'}
                 detailMeasurement={'for measurable personal and professional growth'}
                 FlexDirection={'flex-col min-h-40'}
                 center={'text-center'}
