@@ -68,6 +68,7 @@ export default function VenturesDivCont() {
                     para3={' Designed for senior procurement professionals and rising executives, it offers tailored leadership learning, executive peer exchanges, mentorship, and boardroom readiness through intelligent partnership and proprietary tools and experiences.'}
 
                     subHeadYellow={'Executive coaching • PTX XecXchange • Retreats • Leadership Index • White Glove Concierge'}
+                    VisitHref={'https://xecplug.theprocurementplug.com'}
                 />
 
 
