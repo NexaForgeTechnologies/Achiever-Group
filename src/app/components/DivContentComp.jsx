@@ -1,5 +1,6 @@
 import Heading from "./Heading";
 import GapsDivComp from "./GapsDivComp";
+import Link from "next/link";
 
 export default function DivContentComp({
     heading,
@@ -43,37 +44,45 @@ export default function DivContentComp({
 
                 {/* Gaps grid */}
                 <section className="grid grid-cols-2 md:grid-cols-2 gap-5 z-10 p-0 lg:pl-7">
-                    <GapsDivComp
-                        icon={iconCareer}
-                        iconWidth={icow}
-                        title={titleCareer}
-                        detail={detailCareer}
-                        flex={FlexDirection}
-                        textCenter={center} />
+                    <Link href="https://www.theprocurementplug.com/" target="_blank">
+                        <GapsDivComp
+                            icon={iconCareer}
+                            iconWidth={icow}
+                            title={titleCareer}
+                            detail={detailCareer}
+                            flex={FlexDirection}
+                            textCenter={center} />
+                    </Link>
 
-                    <GapsDivComp
-                        icon={iconLeadership}
-                        iconWidth={icow}
-                        title={titleLeadership}
-                        detail={detailLeadership}
-                        flex={FlexDirection}
-                        textCenter={center} />
+                    <Link href="https://www.ptxtalent.com//" target="_blank">
+                        <GapsDivComp
+                            icon={iconLeadership}
+                            iconWidth={icow}
+                            title={titleLeadership}
+                            detail={detailLeadership}
+                            flex={FlexDirection}
+                            textCenter={center} />
+                    </Link>
 
-                    <GapsDivComp
-                        icon={iconTalent}
-                        iconWidth={icow}
-                        title={titleTalent}
-                        detail={detailTalent}
-                        flex={FlexDirection}
-                        textCenter={center} />
+                    <Link href="https://xec-plug-staging.vercel.app/" target="_blank">
+                        <GapsDivComp
+                            icon={iconTalent}
+                            iconWidth={icow}
+                            title={titleTalent}
+                            detail={detailTalent}
+                            flex={FlexDirection}
+                            textCenter={center} />
+                    </Link>
 
-                    <GapsDivComp
-                        icon={iconMeasurement}
-                        iconWidth={icow}
-                        title={titleMeasurement}
-                        detail={detailMeasurement}
-                        flex={FlexDirection}
-                        textCenter={center} />
+                    <Link href="https://achiever-group-latest-stg.vercel.app/" target="_blank">
+                        <GapsDivComp
+                            icon={iconMeasurement}
+                            iconWidth={icow}
+                            title={titleMeasurement}
+                            detail={detailMeasurement}
+                            flex={FlexDirection}
+                            textCenter={center} />
+                    </Link>
 
                 </section>
 

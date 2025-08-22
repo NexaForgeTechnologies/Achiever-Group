@@ -68,7 +68,7 @@ export default function VenturesDivCont() {
                     para3={' Designed for senior procurement professionals and rising executives, it offers tailored leadership learning, executive peer exchanges, mentorship, and boardroom readiness through intelligent partnership and proprietary tools and experiences.'}
 
                     subHeadYellow={'Executive coaching • PTX XecXchange • Retreats • Leadership Index • White Glove Concierge'}
-                    VisitHref={'https://xecplug.theprocurementplug.com'}
+                    VisitHref={'https://xec-plug-staging.vercel.app/'}
                 />
 
 
@@ -91,7 +91,7 @@ export default function VenturesDivCont() {
                     subHeadYellow={'Benchmark reports • Career vision alignment • Employer dashboards • Printable development journey'}
                     para4={'Includes: XecAchieve – executive-level version for C-suite growth metrics.'}
 
-                    VisitHref={'https://www.AchieveMeter.com'}
+                    VisitHref={'https://achieve-meter-staging.vercel.app/'}
 
                 />
 
