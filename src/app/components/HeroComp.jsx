@@ -19,8 +19,8 @@ export default function HeroComp({ yellow, brown, yellow2, black, para, para2, t
                     <span className="text-black">
                     {black}</span>
                 </h1>
-                <p className="text-base text-gray-500 text-center max-w-195">{para} </p>
-                <p className="text-base text-gray-500 text-center max-w-195">{para2}</p>
+                <p className="text-base text-[#808080] text-center max-w-195">{para} </p>
+                <p className="text-base text-[#808080] text-center max-w-195">{para2}</p>
             </div>
         </>
     )

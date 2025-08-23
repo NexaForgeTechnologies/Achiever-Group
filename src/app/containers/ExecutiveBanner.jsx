@@ -20,7 +20,7 @@ export default function ExecutiveBanner() {
                         </h1>
                         <div className="flex items-center gap-x-3">
                             <img src="/linkedin-brown.png" alt="linkedin" className="w-7 h-7" />
-                            <p className="text-base text-gray-500">Annalisha Noel, MCIPS</p>
+                            <p className="text-base text-[#808080]">Annalisha Noel, MCIPS</p>
                         </div>
 
                         <BtnOne

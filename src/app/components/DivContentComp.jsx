@@ -33,10 +33,10 @@ export default function DivContentComp({
                         <div className="flex justify-center md:justify-start">
                             <Heading name={heading} />
                         </div>
-                        <h1 className={`text-lg font-semibold text-gray-500 max-w-195 text-center md:text-start ${HideManage}`}>
+                        <h1 className={`text-lg font-semibold text-[#808080] max-w-195 text-center md:text-start ${HideManage}`}>
                             {subheading}
                         </h1>
-                        <p className="text-base text-gray-500 max-w-130 text-center md:text-start">
+                        <p className="text-base text-[#808080] max-w-130 text-center md:text-start">
                             {description}
                         </p>
                     </div>

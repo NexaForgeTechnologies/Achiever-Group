@@ -8,7 +8,7 @@ export default function OurPillarsNewCont() {
 
                 <div className="flex flex-col justify-center items-center gap-y-5 ">
                     <Heading name={'Our Pillars'} />
-                    <h1 className="text-lg font-semibold text-gray-500 text-center">Every Platform, Every Principle, Aligned with purpose</h1>
+                    <h1 className="text-lg font-semibold text-[#808080] text-center">Every Platform, Every Principle, Aligned with purpose</h1>
                 </div>
 
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-5">

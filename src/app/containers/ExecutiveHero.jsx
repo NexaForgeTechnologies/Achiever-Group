@@ -15,7 +15,7 @@ export default function ExecutiveHero() {
                             name={"Meet the Founder"}
                             maxWidth="max-w-[190px]"
                         />
-                        <p className="text-base text-gray-500 text-center">
+                        <p className="text-base text-[#808080] text-center">
                             The Vision Behind the Movement
                         </p>
                     </div>
@@ -43,7 +43,7 @@ export default function ExecutiveHero() {
                             name={"Meet the Founder"}
                             maxWidth="max-w-[190px]"
                         />
-                        <p className="text-base text-gray-500 lg:text-start">
+                        <p className="text-base text-[#808080] lg:text-start">
                             The Vision Behind the Movement
                         </p>
                     </div>
@@ -58,11 +58,11 @@ export default function ExecutiveHero() {
                         </i>
                     </div>
 
-                    <p className="text-base text-gray-500 max-w-195 my-1 text-center lg:text-start">
+                    <p className="text-base text-[#808080] max-w-195 my-1 text-center lg:text-start">
                         Trailblazer. Strategist. Connector of Purpose to Impact.
                     </p>
 
-                    <p className="text-base text-gray-500 max-w-195 text-center lg:text-start">
+                    <p className="text-base text-[#808080] max-w-195 text-center lg:text-start">
                         With over a decade of experience driving procurement excellence
                         across Fortune 500 firms, public sector bodies, and critical infrastructure,
                         Annalisha Noel is the powerhouse behind the Achiever Group. Her journey
@@ -79,21 +79,21 @@ export default function ExecutiveHero() {
                     <ul className="flex flex-col gap-y-3 ">
                         <li className="flex gap-x-3 w-full sm:w-auto">
                             <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 mt-1"></span>
-                            <p className="text-sm text-gray-500 text-start max-w-full sm:max-w-xs lg:max-w-md">
+                            <p className="text-sm text-[#808080] text-start max-w-full sm:max-w-xs lg:max-w-md">
                                 Empower professionals to reach boardroom readiness
                             </p>
                         </li>
 
                         <li className="flex gap-x-3 w-full sm:w-auto">
                             <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 mt-1"></span>
-                            <p className="text-sm text-gray-500 text-start max-w-full sm:max-w-xs lg:max-w-md">
+                            <p className="text-sm text-[#808080] text-start max-w-full sm:max-w-xs lg:max-w-md">
                                 Reimagine procurement as a strategic, inclusive, and high-impact field.
                             </p>
                         </li>
 
                         <li className="flex gap-x-3 w-full sm:w-auto">
                             <span className="bg-[#A55C2F] rounded-full w-2.5 h-2.5 flex-shrink-0 mt-1"></span>
-                            <p className="text-sm text-gray-500 text-start max-w-full sm:max-w-xs lg:max-w-md">
+                            <p className="text-sm text-[#808080] text-start max-w-full sm:max-w-xs lg:max-w-md">
                                 Build tools and platforms that enable real, measurable growth.
                             </p>
                         </li>

@@ -18,13 +18,13 @@ export default function PrivacyPolicyHeroCont() {
                         </h2>
                     </div>
 
-                    <p className="text-base text-gray-500 max-w-[500px] text-center lg:text-start">This privacy policy applies to all digital platforms, websites, tools,
+                    <p className="text-base text-[#808080] max-w-[500px] text-center lg:text-start">This privacy policy applies to all digital platforms, websites, tools,
                         and services operated by Achiever Group Ltd, including but not
                         limited to The Procurement Plug, PTX – Project and Talent Xchange,
                         AchieveMeter, and Xec Plug (collectively referred to as “we” “our” ,
                         , or “us”).</p>
 
-                    <p className="text-base text-gray-500 max-w-[500px] text-center lg:text-start">We are committed to protecting your privacy and handling your
+                    <p className="text-base text-[#808080] max-w-[500px] text-center lg:text-start">We are committed to protecting your privacy and handling your
                         personal data with transparency and care. This policy outlines
                         how we collect, use, store, and protect your data in line with the
                         UK GDPR and the Data Protection Act 2018.</p>

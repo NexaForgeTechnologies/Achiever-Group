@@ -22,7 +22,7 @@ export default function PrivacyContentCont() {
 
                     <Link href={"#info"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 1. Information We Collect</h1>
                         </li>
                     </Link>
@@ -30,56 +30,56 @@ export default function PrivacyContentCont() {
 
                     <Link href={"#how-we-use"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 2. How We Use Your Data</h1>
                         </li>
                     </Link>
 
                     <Link href={"#data-sharing"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 3. Legal Basis for Processing</h1>
                         </li>
                     </Link>
 
                     <Link href={"#data-sharing"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 4. Data Sharing & Third Parties</h1>
                         </li>
                     </Link>
 
                     <Link href={"#international"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 5. International Transfers</h1>
                         </li>
                     </Link>
 
                     <Link href={"#data-retention"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 6. Data Retention</h1>
                         </li>
                     </Link>
 
                     <Link href={"#your-rights"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 7. Your Rights</h1>
                         </li>
                     </Link>
 
                     <Link href={"#cookies"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 8. Cookies & Tracking</h1>
                         </li>
                     </Link>
 
                     <Link href={"#security"}>
                         <li className="">
-                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-gray-500">
+                            <h1 className="hover:text-[#A55C2F] active:text-[#A55C2F] text-[#808080]">
                                 9. Security</h1>
                         </li>
                     </Link>
@@ -93,72 +93,72 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We may collect and process the following data:</p>
-                            <h1 className="text-base text-gray-500 max-w-195 my-1 text-start font-semibold">
+                            <h1 className="text-base text-[#808080] max-w-195 my-1 text-start font-semibold">
                                 A. Personal Information</h1>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Full name</p>
+                                <p className="text-sm text-[#808080] ">Full name</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Email address</p>
+                                <p className="text-sm text-[#808080] ">Email address</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Phone number</p>
+                                <p className="text-sm text-[#808080] ">Phone number</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Job title and company</p>
+                                <p className="text-sm text-[#808080] ">Job title and company</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">CV and employment history (if submitted)</p>
+                                <p className="text-sm text-[#808080] ">CV and employment history (if submitted)</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Billing and payment information (if applicable) </p>
+                                <p className="text-sm text-[#808080] ">Billing and payment information (if applicable) </p>
                             </li>
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <h1 className="text-base text-gray-500 max-w-195 my-1 text-start font-semibold">
+                            <h1 className="text-base text-[#808080] max-w-195 my-1 text-start font-semibold">
                                 B. Technical Data</h1>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">IP address</p>
+                                <p className="text-sm text-[#808080] ">IP address</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Device and browser type</p>
+                                <p className="text-sm text-[#808080] ">Device and browser type</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Pages visited and interactions on our websites</p>
+                                <p className="text-sm text-[#808080] ">Pages visited and interactions on our websites</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Referral source</p>
+                                <p className="text-sm text-[#808080] ">Referral source</p>
                             </li>
                         </div>
 
                         <div className="flex flex-col gap-y-1">
-                            <h1 className="text-base text-gray-500 max-w-195 my-1 text-start font-semibold">
+                            <h1 className="text-base text-[#808080] max-w-195 my-1 text-start font-semibold">
                                 C. Sensitive Data</h1>
 
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We do not intentionally collect sensitive personal data unless explicitly provided for
                                 a specific service (e.g. mentoring accessibility needs or event dietary restrictions).</p>
                         </div>
@@ -171,37 +171,37 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We use your data to:</p>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Provide access to our platforms and services</p>
+                                <p className="text-sm text-[#808080] ">Provide access to our platforms and services</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Process sign-ups and account creation</p>
+                                <p className="text-sm text-[#808080] ">Process sign-ups and account creation</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Personalise your user experience</p>
+                                <p className="text-sm text-[#808080] ">Personalise your user experience</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Communicate updates, events, and marketing (with your consent)</p>
+                                <p className="text-sm text-[#808080] ">Communicate updates, events, and marketing (with your consent)</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Conduct research and improve our services</p>
+                                <p className="text-sm text-[#808080] ">Conduct research and improve our services</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Maintain security and prevent fraud</p>
+                                <p className="text-sm text-[#808080] ">Maintain security and prevent fraud</p>
                             </li>
                         </div>
                     </section>
@@ -214,22 +214,22 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We do not sell your data. We may share your data with:</p>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Service providers (e.g. CRM, analytics, payment processors) under strict confidentiality</p>
+                                <p className="text-sm text-[#808080] ">Service providers (e.g. CRM, analytics, payment processors) under strict confidentiality</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Legal authorities where required</p>
+                                <p className="text-sm text-[#808080] ">Legal authorities where required</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Event or workshop partners (if you opt in)</p>
+                                <p className="text-sm text-[#808080] ">Event or workshop partners (if you opt in)</p>
                             </li>
                         </div>
                     </section>
@@ -242,7 +242,7 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 If your data is processed outside the UK, we ensure appropriate safeguards are in place,
                                 such as Standard Contractual Clauses or compliance with adequacy decisions.</p>
                         </div>
@@ -256,7 +256,7 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We retain your data for as long as necessary to fulfil the purposes outlined in this policy. You can request deletion at any time by contacting us at [insert email address].
                             </p>
                         </div>
@@ -270,41 +270,41 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 Under the UK GDPR, you have the right to:
                             </p>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Access your data</p>
+                                <p className="text-sm text-[#808080] ">Access your data</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Correct inaccuracies</p>
+                                <p className="text-sm text-[#808080] ">Correct inaccuracies</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Request deletion</p>
+                                <p className="text-sm text-[#808080] ">Request deletion</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Restrict or object to processing</p>
+                                <p className="text-sm text-[#808080] ">Restrict or object to processing</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Data portability</p>
+                                <p className="text-sm text-[#808080] ">Data portability</p>
                             </li>
 
                             <li className="flex items-center gap-x-3">
                                 <span className={` bg-[#BF8933] rounded-full w-2.5 h-2.5 flex-shrink-0`}></span>
-                                <p className="text-sm text-gray-500 ">Withdraw consent at any time</p>
+                                <p className="text-sm text-[#808080] ">Withdraw consent at any time</p>
                             </li>
 
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 You can exercise your rights by contacting us at [insert contact email].
                             </p>
                         </div>
@@ -317,7 +317,7 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We use cookies to enhance your browsing experience. You can manage or disable
                                 cookies via your browser settings. See our [Cookie Policy] for more information.
                             </p>
@@ -332,7 +332,7 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We take appropriate technical and organizational measures to protect your data,
                                 including encryption, secure servers, and access controls.
                             </p>
@@ -348,7 +348,7 @@ export default function PrivacyContentCont() {
                         </div>
 
                         <div className="flex flex-col gap-y-2">
-                            <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                            <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                 We take appropriate technical and organizational measures to protect your data,
                                 including encryption, secure servers, and access controls.
                             </p>
@@ -363,7 +363,7 @@ export default function PrivacyContentCont() {
                                     For questions or data requests, please contact:
                                 </h1>
 
-                                <p className="text-base text-gray-500 max-w-195 my-1 text-start">
+                                <p className="text-base text-[#808080] max-w-195 my-1 text-start">
                                     Achiever Group Ltd
                                 </p>
 

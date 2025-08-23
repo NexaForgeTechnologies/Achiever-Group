@@ -28,25 +28,25 @@ export default function VenturesDivComp({
 
                 <div className="flex flex-col justify-between flex-grow">
                     <div className="flex flex-col gap-y-3 md:gap-y-4">
-                        <h1 className="text-2xl font-semibold text-gray-500">{title}</h1>
+                        <h1 className="text-2xl font-semibold text-[#808080]">{title}</h1>
 
                         <div>
-                            <h2 className="text-base font-semibold text-gray-500 mb-2">
+                            <h2 className="text-base font-semibold text-[#808080] mb-2">
                                 {subHead1}:
                                 <span className="ml-2 font-normal">{para1}</span>
                             </h2>
 
-                            <h2 className="text-base font-semibold text-gray-500">
+                            <h2 className="text-base font-semibold text-[#808080]">
                                 {subHead2}:
-                                <span className="ml-2 font-normal text-gray-500">{para2}</span>
+                                <span className="ml-2 font-normal text-[#808080]">{para2}</span>
                             </h2>
                         </div>
-                        <p className="text-base text-gray-500">{para}</p>
+                        <p className="text-base text-[#808080]">{para}</p>
 
-                        <p className="text-base text-gray-500">{para3}</p>
+                        <p className="text-base text-[#808080]">{para3}</p>
 
                         <h2 className="text-base font-semibold text-[#BF8933]">{subHeadYellow}</h2>
-                        <p className="text-base text-gray-500">{para4}</p>
+                        <p className="text-base text-[#808080]">{para4}</p>
                     </div>
 
                     <BtnOne
