@@ -64,7 +64,7 @@ export default function DivContentComp({
                             textCenter={center} />
                     </Link>
 
-                    <Link href="https://xec-plug-staging.vercel.app/" target="_blank">
+                    <Link href="https://xecplug.theprocurementplug.com/" target="_blank">
                         <GapsDivComp
                             icon={iconTalent}
                             iconWidth={icow}
@@ -74,7 +74,7 @@ export default function DivContentComp({
                             textCenter={center} />
                     </Link>
 
-                    <Link href="https://achiever-group-latest-stg.vercel.app/" target="_blank">
+                    <Link href="https://achievemeter.com/" target="_blank">
                         <GapsDivComp
                             icon={iconMeasurement}
                             iconWidth={icow}

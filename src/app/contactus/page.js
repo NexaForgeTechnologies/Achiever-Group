@@ -21,7 +21,7 @@ export default function ContactUs() {
 
                             <span className="text-black">?</span>
                         </h1>
-                        <p className="text-base text-gray-500 text-center lg:text-start max-w-130">Our friendly team is here to help! Whether you’re looking for more
+                        <p className="text-base text-[#808080] text-center lg:text-start max-w-130">Our friendly team is here to help! Whether you’re looking for more
                             information about our services, need support, or just want to share
                             feedback, we’d love to hear from you.</p>
                     </div>
