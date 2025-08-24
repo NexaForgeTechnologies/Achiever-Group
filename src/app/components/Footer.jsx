@@ -93,7 +93,7 @@ function Footer() {
             {/* Bottom Bar */}
             <section className="py-5 text-center bg-[#BF8933] text-white">
                     <p className="text-sm sm:text-base">
-                       <Link href={"https://achiever-group-latest-stg.vercel.app/"} target="_blank"> ©2025 Achiever Group </Link>| <Link href={"https://nexaforgetech.com/"} target="_blank"> Powered by NexaForge Technologies</Link>
+                       <Link href={"https://achiever-grp.com/"} target="_blank"> ©2025 Achiever Group </Link>| <Link href={"https://nexaforgetech.com/"} target="_blank"> Powered by NexaForge Technologies</Link>
                     </p>
             </section>
         </footer>
