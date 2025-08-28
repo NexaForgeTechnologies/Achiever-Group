@@ -19,7 +19,7 @@ export const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "The Achiever Group | CONNECT | LEAD | GROW | MEASURE",
+  title: "The Achiever Group",
   description: "CONNECT | LEAD | GROW | MEASURE ",
 
   openGraph: {
