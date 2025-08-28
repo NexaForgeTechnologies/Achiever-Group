@@ -48,9 +48,10 @@ export const metadata = {
   alternates: {
     canonical: "https://achiever-grp.com",
     domains: [
-      "https://achiever-grp.com.com",
+      "https://achiever-grp.com",
       "https://www.achiever-grp.com",
-    ],
+    ]
+
   },
 };
 
