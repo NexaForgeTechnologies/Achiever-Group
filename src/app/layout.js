@@ -19,7 +19,7 @@ export const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "The Achiever Group",
+  title: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE",
   description: "CONNECT | LEAD | GROW | MEASURE ",
 
   openGraph: {
@@ -40,8 +40,8 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "The Achiever Group",
-    description: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE",
+    title: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE",
+    description: "CONNECT | LEAD | GROW | MEASURE",
     images: ["https://achiever-grp.com/favlogo2.png"], // absolute URL
   },
 
@@ -61,6 +61,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="icon" href="/favlogo2.png" type="image/x-icon"/>
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
