@@ -18,9 +18,10 @@ export default function HomeHeroCont() {
                         <span className="text-[#BF8933] flex justify-center md:justify-start items-center flex-wrap gap-x-2">
                             <span className="text-[#BF8933]">  CONNECT</span>
                             <div className="md:w-4 md:h-4 w-3 h-3 rounded-full inline-block bg-[#A55C2F]"></div>
-                            <span className="text-black">  LEAD </span>
-                            <div className="md:w-4 md:h-4 w-3 h-3 rounded-full inline-block bg-[#A55C2F]"></div>
                             <span className="text-[#563224]">GROW </span>
+                            <div className="md:w-4 md:h-4 w-3 h-3 rounded-full inline-block bg-[#A55C2F]"></div>
+                            <span className="text-black">  LEAD </span>
+
                             <div className="md:w-4 md:h-4 w-3 h-3 rounded-full inline-block bg-[#A55C2F]"></div>
                             MEASURE
                         </span>

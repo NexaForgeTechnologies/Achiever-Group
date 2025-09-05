@@ -1,7 +1,7 @@
-import HeroComp from "../components/HeroComp";
-import BannerComp from "../containers/BannerComp";
-import VenturesDivCont from "../containers/VenturesDivCont";
-import VentureSheetCont from "../containers/VentureSheetCont";
+import HeroComp from "../../components/HeroComp";
+import BannerComp from "../../containers/BannerComp";
+import VenturesDivCont from "../../containers/VenturesDivCont";
+import VentureSheetCont from "../../containers/VentureSheetCont";
 export default function ourVentures() {
     return (
         <>

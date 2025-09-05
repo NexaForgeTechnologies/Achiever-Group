@@ -13,6 +13,14 @@ export default function OurPillarsNewCont() {
 
                 <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-5">
                     <OurPillarsNewComp
+                        imageLink={"/connect-p.png"}
+                        bulletClr="bg-[#5D2F6A]"
+                        bullet1={"Collaboration"}
+                        bullet2={"Innovation"}
+                        bullet3={"Inclusion"}
+                    />
+                    
+                    <OurPillarsNewComp
                         imageLink={"/grow-p.png"}
                         bulletClr="bg-[#F3C349]"
                         bullet1={"Empowerment"}
@@ -28,14 +36,7 @@ export default function OurPillarsNewCont() {
                         bullet3={"Legacy"}
                     />
 
-                    <OurPillarsNewComp
-                        imageLink={"/connect-p.png"}
-                        bulletClr="bg-[#5D2F6A]"
-                        bullet1={"Collaboration"}
-                        bullet2={"Innovation"}
-                        bullet3={"Inclusion"}
-                    />
-
+                    
                     <OurPillarsNewComp
                         imageLink={"/measure-p.png"}
                         bulletClr="bg-[#37200E]"

@@ -1,7 +1,7 @@
-import HeroComp from "../components/HeroComp";
-import SetsApartCont from "../components/SetsApartCont";
-import AchieverGrid from "../containers/AchieverGrid";
-import OurPillarsNewCont from "../containers/OurPillarsNewCont";
+import HeroComp from "../../components/HeroComp";
+import SetsApartCont from "../../components/SetsApartCont";
+import AchieverGrid from "../../containers/AchieverGrid";
+import OurPillarsNewCont from "../../containers/OurPillarsNewCont";
 
 export default function AchieverValueFramework() {
     return (

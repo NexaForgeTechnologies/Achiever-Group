@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono, Rubik } from "next/font/google";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import Header from "../containers/Header";
+import Footer from "../containers/Footer";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -19,11 +19,11 @@ export const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE",
-  description: "CONNECT | LEAD | GROW | MEASURE ",
+  title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE",
+  description: "CONNECT | GROW | LEAD | MEASURE ",
 
   openGraph: {
-    title: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE ",
+    title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE ",
     url: "https://achiever-grp.com", // canonical domain
     siteName: "The Achiever Group",
     images: [
@@ -40,7 +40,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "The Achiever Group — CONNECT | LEAD | GROW | MEASURE",
+    title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE",
     description: "CONNECT | LEAD | GROW | MEASURE",
     images: ["https://achiever-grp.com/favlogo2.png"], // absolute URL
   },

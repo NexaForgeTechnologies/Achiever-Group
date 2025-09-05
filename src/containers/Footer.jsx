@@ -18,12 +18,12 @@ function Footer() {
 
             <span className="flex items-center text-sm sm:text-base text-black">
               <span className="w-2 h-2 mx-2 bg-[#BF8933] rounded-full"></span>
-              LEAD
+              GROW
             </span>
 
             <span className="flex items-center text-sm sm:text-base text-black">
               <span className="w-2 h-2 mx-2 bg-[#BF8933] rounded-full"></span>
-              GROW
+              LEAD
             </span>
 
             <span className="flex items-center text-sm sm:text-base text-black">

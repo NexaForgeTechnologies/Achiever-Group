@@ -1,4 +1,4 @@
-import BtnOne from "../components/BtnOne";
+import BtnOne from "./BtnOne";
 import Link from "next/link";
 
 export default function VenturesDivComp({

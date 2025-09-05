@@ -1,4 +1,4 @@
-import Heading from "../components/Heading";
+import Heading from "../../components/Heading";
 import Link from "next/link";
 export default function ContactUs() {
     return (

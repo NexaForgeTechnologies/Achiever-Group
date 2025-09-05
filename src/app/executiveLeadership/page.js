@@ -1,8 +1,8 @@
-import DivContentComp from "../components/DivContentComp";
-import AnalishaJourneyCont from "../containers/AnalishaJourneyCont";
-import ExecutiveBanner from "../containers/ExecutiveBanner";
-import ExecutiveGridCont from "../containers/ExecutiveGridCont";
-import ExecutiveHero from "../containers/ExecutiveHero";
+import DivContentComp from "../../components/DivContentComp";
+import AnalishaJourneyCont from "../../containers/AnalishaJourneyCont";
+import ExecutiveBanner from "../../containers/ExecutiveBanner";
+import ExecutiveGridCont from "../../containers/ExecutiveGridCont";
+import ExecutiveHero from "../../containers/ExecutiveHero";
 export default function executiveLeadership() {
     return (
         <>

@@ -1,11 +1,11 @@
-import HomeHeroCont from "./containers/HomeHeroCont";
-import DivContentComp from "./components/DivContentComp";
-import HowWeThinkCont from "./containers/HowWeThinkCont";
-import BannerComp from "./containers/BannerComp";
-import WhoWeAreCont from "./containers/WhoWeAreCont";
-import HomeGrid from "./containers/HomeGrid";
-import WhatMakesUsDiffCont from "./containers/WhatMakesUsDiffCont";
-import TheGapsFillingCont from "./containers/TheGapsFillingCont";
+import HomeHeroCont from "../containers/HomeHeroCont";
+import DivContentComp from "../components/DivContentComp";
+import HowWeThinkCont from "../containers/HowWeThinkCont";
+import BannerComp from "../containers/BannerComp";
+import WhoWeAreCont from "../containers/WhoWeAreCont";
+import HomeGrid from "../containers/HomeGrid";
+import WhatMakesUsDiffCont from "../containers/WhatMakesUsDiffCont";
+import TheGapsFillingCont from "../containers/TheGapsFillingCont";
 export default function Home() {
   return (
     <>
