@@ -19,19 +19,19 @@ export const rubik = Rubik({
 });
 
 export const metadata = {
-  title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE",
+  title: "Achiever Group — CONNECT | GROW | LEAD | MEASURE",
   description: "CONNECT | GROW | LEAD | MEASURE ",
 
   openGraph: {
-    title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE ",
+    title: "Achiever Group — CONNECT | GROW | LEAD | MEASURE ",
     url: "https://achiever-grp.com", // canonical domain
-    siteName: "The Achiever Group",
+    siteName: "Achiever Group",
     images: [
       {
         url: "https://achiever-grp.com/favlogo2.png", // absolute URL
         width: 1200,
         height: 630,
-        alt: "The Achiever Group",
+        alt: "Achiever Group",
       },
     ],
     locale: "en_US",
@@ -40,7 +40,7 @@ export const metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "The Achiever Group — CONNECT | GROW | LEAD | MEASURE",
+    title: "Achiever Group — CONNECT | GROW | LEAD | MEASURE",
     description: "CONNECT | LEAD | GROW | MEASURE",
     images: ["https://achiever-grp.com/favlogo2.png"], // absolute URL
   },
